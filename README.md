@@ -3,8 +3,9 @@ Script que coleta dados de relatório em PDF da metrologia e exporta para uma pl
 
 ### Contexto 
 Em processos de produção industrial é comum que áreas de Engenharia de produto e Engenharia da qualidade façam análises estátisticas com dimesões de peças.
-As análises consistem em medir um grande número de peças (cerca de 50 peças) em máquinas da metrologia, como MCC e perfilómetro. Essas máquinas geram um relatório em PDF de cada peça com as dimensões e as características medidas. Cabe, então, ao time de engenharia abrir cada relatório, copiar os valores de interesse para uma planilha e em seguida fazer a análise estatística.
-O programa automatiza esse processo de planilhar os valores dos relatórios, tornando uma tarefa que levaria cerca de 2 horas em uma tarefa de 10 minutos. 
+As análises consistem em medir um grande número de peças (cerca de 50 peças) em máquinas da metrologia, como CMM e perfilómetro. Essas máquinas geram um relatório em PDF de cada peça com as dimensões e as características medidas. Cabe, então, ao time de engenharia abrir cada relatório, copiar os valores de interesse para uma planilha e em seguida fazer a análise estatística.
+
+O programa automatiza esse processo de planilhar os valores dos relatórios, tornando uma tarefa que levaria cerca de 2 horas em uma tarefa de 10 minutos. Por quest, o programa exige do usuário somente interação com a planilha do excel, não sendo necessário editar o script em Python ou inserir inputs no teminal.
 
 ### Requisitos
  - Python 3
